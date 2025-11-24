@@ -2,6 +2,7 @@ from sqlmodel import SQLModel, Field
 from sqlmodel import create_engine
 from sqlmodel import Session, select
 from agents import Agents
+from terrorists import Terrorists
 import time
 
 class Reports(SQLModel,table=True):
